@@ -3,4 +3,4 @@
 - **`bot_world`**
 - **`bot_control`**
 
-### Steps to Execute each one is give inside the package
+### Steps to Execute each package is give inside the src
