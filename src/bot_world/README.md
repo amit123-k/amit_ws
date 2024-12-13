@@ -1,14 +1,24 @@
-This package contains the world file of gazebo named as gazebo_world.world
-The world can only be visualise by the following command. Before that navigate to the worlds folder and run this:
-        
-    gazebo gazebo_world.world
+This package contains the world model with urdf. 
+### How to test the package
 
-And to spawn the robot inside this world use this command:
+1. Build the package:
+   
+   ``` bash
+   cd ~/your_name_ws
+   colcon build 
+    ```
 
-    ros2 launch bot_world robot.launch.py
+2. Source the workspace:
+   ``` bash
+   source install/setup.bash
+    ```
 
-This is the final view of gazebo environment where the robot model can be operated through teleop command and its sensor informations can be visualized through different topics namely /camera_sensor (five different topics) and /scan topic for lidar sensor.
-
-The robot can be run inside the world using the following command.(Teleop twist keyboard)
-
-    ros2 run teleop_twist_keyboard teleop_twist_keyboard 
+3. This should spawn bot in the Gazebo world model:
+   ``` bash
+   ros2 launch bot_world robot.launch.py
+   ```
+   
+4. For the teleop the bot in gazebo:
+   ``` bash
+   ros2 run teleop_twist_keyboard teleop_twist_keyboard
+    ```
