@@ -1,0 +1,6 @@
+Invoking command in '/home/amit/amit_ws/build/bot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/amit/amit_ws/src/bot_control -DCMAKE_INSTALL_PREFIX=/home/amit/amit_ws/install/bot_control
+Invoked command in '/home/amit/amit_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/amit/amit_ws/src/bot_control -DCMAKE_INSTALL_PREFIX=/home/amit/amit_ws/install/bot_control
+Invoking command in '/home/amit/amit_ws/build/bot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amit/amit_ws/build/bot_control -- -j12 -l12
+Invoked command in '/home/amit/amit_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/amit/amit_ws/build/bot_control -- -j12 -l12
+Invoking command in '/home/amit/amit_ws/build/bot_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amit/amit_ws/build/bot_control
+Invoked command in '/home/amit/amit_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/amit/amit_ws/build/bot_control

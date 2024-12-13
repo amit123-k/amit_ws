@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<robot name="my_bot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+    <xacro:include filename="lidarcamera.xacro"/>
+    <xacro:include filename="lidar.xacro"/>
+
+
+    <link name="base_footprint" ></link>
+
+
+    <link name="base_link">
+        <visual>
+            <geometry>
+                <box size="${box_length} ${box_width} ${box_height}" />
+            </geometry>
+            <origin xyz="0 0 ${box_height / 2.0}" rpy="0 0 0" />
+            <material name="green" />
+        </visual>
+        <collision>
+            <geometry>
+                <box size="${box_length} ${box_width} ${box_height}" />
+            </geometry>
+            <origin xyz="0 0 ${box_height / 2.0}" rpy="0 0 0" />
+        </collision>
+        <xacro:box_inertia m="4.0" l="${3*box_length}" w="${3*box_width}" h="${3*box_height}" xyz="0 0 ${box_height / 2.0}" rpy="0 0 0"/>
+    </link>
+
+    <xacro:macro name="wheel_link" params="prefix">
+        <link name="${prefix}_wheel_link">
+            <visual>
+                <geometry>
+                    <cylinder radius="${side_wheel_radius}" length="${side_wheel_length}" />
+                </geometry>
+                <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+                <material name="grey" />
+            </visual>
+            <collision>
+                <geometry>
+                    <cylinder radius="${side_wheel_radius}" length="${side_wheel_length}" />
+                </geometry>
+                <origin xyz="0 0 0" rpy="${pi / 2.0} 0 0" />
+            </collision>
+
+            <xacro:cylinder_inertia m="0.5" r="${2*side_wheel_radius}" l="${2*side_wheel_length}" xyz="0 0 0" rpy="${2*pi / 2.0} 0 0"/>
+
+        </link>
+    </xacro:macro>
+
+    <xacro:wheel_link prefix="right" />
+    <xacro:wheel_link prefix="left" />
+
+    <gazebo>
+        <plugin name="diff_drive_controller" filename="libgazebo_ros_diff_drive.so">
+      
+            <!-- Update rate in Hz -->
+            <update_rate>50</update_rate>
+      
+            <!-- wheels -->
+            <left_joint>base_left_wheel_joint</left_joint>
+            <right_joint>base_right_wheel_joint</right_joint>
+      
+            <!-- kinematics -->
+            <wheel_separation>0.22</wheel_separation>
+            <wheel_diameter>0.12</wheel_diameter>
+      
+            <!-- limits
+            <max_wheel_torque>20</max_wheel_torque>
+            <max_wheel_acceleration>1.0</max_wheel_acceleration> -->
+      
+            <!-- input -->
+            <command_topic>cmd_vel</command_topic>
+      
+            <!-- output -->
+            <publish_odom>true</publish_odom>
+            <publish_odom_tf>true</publish_odom_tf>
+            <publish_wheel_tf>true</publish_wheel_tf>
+      
+            <odometry_topic>odom</odometry_topic>
+            <odometry_frame>odom</odometry_frame>
+            <robot_base_frame>base_footprint</robot_base_frame>
+        </plugin>
+      </gazebo>
+
+    <link name="front_wheel_link">
+        <visual>
+            <geometry>
+                <sphere radius="${front_wheel_radius}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+            <material name="grey" />
+        </visual>
+        <collision>
+            <geometry>
+                <sphere radius="${front_wheel_radius}" />
+            </geometry>
+            <origin xyz="0 0 0" rpy="0 0 0" />
+        </collision>
+        <xacro:sphere_inertia m="0.35" r="${2*front_wheel_radius}" xyz="0 0 0" rpy="0 0 0"/>
+    </link>
+
+
+
+
+    <joint name="base_footprint_base_link_joint" type="fixed">
+        <parent link="base_footprint" />
+        <child link="base_link" />
+        <origin xyz="0 0 ${front_wheel_radius}" rpy="0 0 0" />
+
+    </joint>
+
+    <joint name="base_left_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="left_wheel_link" />
+        <origin xyz="-0.035 ${(box_width + side_wheel_length) / 2.0} 0.040" rpy="0 0 0"/>
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <joint name="base_right_wheel_joint" type="continuous">
+        <parent link="base_link" />
+        <child link="right_wheel_link" />
+        <origin xyz="-0.035 ${-(box_width + side_wheel_length) / 2.0} 0.040" rpy="0 0 0"/>
+        <axis xyz="0 1 0" />
+    </joint>
+
+    <joint name="base_front_wheel_joint" type="fixed">
+        <parent link="base_link" />
+        <child link="front_wheel_link" />
+        <origin xyz="0.061 0 0" rpy="0 0 0" />
+    </joint>
+
+</robot>

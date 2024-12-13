@@ -1,0 +1,32 @@
+[0.024s] Invoking command in '/home/amit/amit_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amit/amit_ws/build/bot_description -- -j12 -l12
+[0.095s] Invoked command in '/home/amit/amit_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amit/amit_ws/build/bot_description -- -j12 -l12
+[0.140s] Invoking command in '/home/amit/amit_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amit/amit_ws/build/bot_description
+[0.153s] -- Install configuration: ""
+[0.154s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/urdf
+[0.154s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/urdf/lidar.xacro
+[0.154s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/urdf/lidarcamera.xacro
+[0.154s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/urdf/bot_description.urdf
+[0.154s] -- Installing: /home/amit/amit_ws/install/bot_description/share/bot_description/urdf/bot.urdf
+[0.154s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/urdf/bot_description.urdf.xacro
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/launch
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/launch/rviz.launch.py
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/launch/spawn.launch.py
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/config
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/config/robot_config.rviz
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/config/urdf_config.rviz
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/environment/path.sh
+[0.155s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/environment/path.dsv
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/local_setup.bash
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/local_setup.sh
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/local_setup.zsh
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/local_setup.dsv
+[0.160s] -- Installing: /home/amit/amit_ws/install/bot_description/share/bot_description/package.dsv
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+[0.160s] -- Up-to-date: /home/amit/amit_ws/install/bot_description/share/bot_description/package.xml
+[0.189s] Invoked command in '/home/amit/amit_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amit/amit_ws/build/bot_description

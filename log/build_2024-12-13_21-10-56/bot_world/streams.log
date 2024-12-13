@@ -1,0 +1,26 @@
+[0.026s] Invoking command in '/home/amit/amit_ws/build/bot_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amit/amit_ws/build/bot_world -- -j12 -l12
+[0.077s] Invoked command in '/home/amit/amit_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/amit/amit_ws/build/bot_world -- -j12 -l12
+[0.122s] Invoking command in '/home/amit/amit_ws/build/bot_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amit/amit_ws/build/bot_world
+[0.141s] -- Install configuration: ""
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/worlds
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/worlds/model.sdf
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/worlds/model.world
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/worlds/model.config
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/launch
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/launch/robot.launch.py
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world
+[0.141s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/environment/path.sh
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/environment/path.dsv
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/local_setup.bash
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/local_setup.sh
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/local_setup.zsh
+[0.142s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/local_setup.dsv
+[0.142s] -- Installing: /home/amit/amit_ws/install/bot_world/share/bot_world/package.dsv
+[0.143s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world
+[0.143s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake
+[0.143s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake
+[0.143s] -- Up-to-date: /home/amit/amit_ws/install/bot_world/share/bot_world/package.xml
+[0.154s] Invoked command in '/home/amit/amit_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/amit/amit_ws/build/bot_world
