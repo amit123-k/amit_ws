@@ -1,0 +1,9 @@
+/home/amitk/amit_ws/build/autobot/CMakeFiles/uninstall.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/autobot_uninstall.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/test.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/edit_cache.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/rebuild_cache.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/list_install_components.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/install.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/install/local.dir
+/home/amitk/amit_ws/build/autobot/CMakeFiles/install/strip.dir

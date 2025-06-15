@@ -1,0 +1,5 @@
+[console_scripts]
+imu_publisher = odom_computation.imu_publisher:main
+odom_node = odom_computation.odom_node:main
+wheel_tick_publisher = odom_computation.wheel_tick_pub:main
+

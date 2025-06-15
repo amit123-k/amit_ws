@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating odom_computation.egg-info
+writing odom_computation.egg-info/PKG-INFO
+writing dependency_links to odom_computation.egg-info/dependency_links.txt
+writing entry points to odom_computation.egg-info/entry_points.txt
+writing requirements to odom_computation.egg-info/requires.txt
+writing top-level names to odom_computation.egg-info/top_level.txt
+writing manifest file 'odom_computation.egg-info/SOURCES.txt'
+reading manifest file 'odom_computation.egg-info/SOURCES.txt'
+writing manifest file 'odom_computation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/amitk/amit_ws/install/odom_computation/lib/python3.10/site-packages/odom-computation.egg-link (link to .)
+Installing imu_publisher script to /home/amitk/amit_ws/install/odom_computation/lib/odom_computation
+Installing odom_node script to /home/amitk/amit_ws/install/odom_computation/lib/odom_computation
+Installing wheel_tick_publisher script to /home/amitk/amit_ws/install/odom_computation/lib/odom_computation
+
+Installed /home/amitk/amit_ws/build/odom_computation
+running symlink_data
+creating /home/amitk/amit_ws/install/odom_computation/share/ament_index
+creating /home/amitk/amit_ws/install/odom_computation/share/ament_index/resource_index
+creating /home/amitk/amit_ws/install/odom_computation/share/ament_index/resource_index/packages
+symbolically linking /home/amitk/amit_ws/build/odom_computation/resource/odom_computation -> /home/amitk/amit_ws/install/odom_computation/share/ament_index/resource_index/packages
+symbolically linking /home/amitk/amit_ws/build/odom_computation/package.xml -> /home/amitk/amit_ws/install/odom_computation/share/odom_computation
