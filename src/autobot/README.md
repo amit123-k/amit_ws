@@ -1,5 +1,4 @@
-This package contains the robot description of the used model. 
-### How to test the package
+## This package contains the steps to test the package. 
 
 1. Build the package and Source the workspace:
    
