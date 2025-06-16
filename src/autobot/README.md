@@ -26,3 +26,11 @@
    ``` bash
    ros2 launch nav2_bringup navigation_launch.py use_sim_time:=true
     ```
+
+6. You ca Inspect topics like IMU data, wheel odometry, IMU data:
+   ``` bash
+   ros2 topic echo /scan
+   ros2 topic echo /odom
+   ros2 topic echo /imu_plugin/out
+    ```
+   
