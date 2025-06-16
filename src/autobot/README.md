@@ -1,5 +1,5 @@
 ## This package contains the steps to test the package. 
-
+Open a new terminal for each command below.
 1. Build the package and Source the workspace:
    
    ``` bash
