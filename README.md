@@ -5,3 +5,4 @@
 - **Task 2**: Computing odometry from simulated wheel encoder ticks.
 
 ## Steps to Execute each package is given inside the    `` --src ``
+Instructions to remove ```build/```, ```install/```, ```log/``` before building your workspace
