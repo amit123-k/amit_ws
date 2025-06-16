@@ -23,3 +23,16 @@
    ```bash
    ros2 topic echo /odom
     ```
+
+___________
+## Bonus Task: Simulated IMU Publisher
+
+1. Start publishing IMU data
+   ```bash
+   ros2 run odom_computation imu_publisher
+    ```
+
+2. Inspect published IMU readings
+   ```bash
+   ros2 topic echo /imu/data
+    ```
